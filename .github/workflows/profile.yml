@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/profile.yml", "profile-3d-contrib/settings.json", "scripts/banner.py"]
+    paths: [".github/workflows/profile.yml", "profile-3d-contrib/settings.json", "scripts/banner.py", "scripts/off_the_clock.py"]
 
 permissions:
   contents: write
@@ -34,14 +34,17 @@ jobs:
           curl -sSfL "$base/instrumentserif/InstrumentSerif-Regular.ttf" -o fonts/InstrumentSerif-Regular.ttf
           curl -sSfL "$base/geist/Geist%5Bwght%5D.ttf" -o fonts/Geist.ttf
           curl -sSfL "$base/geistmono/GeistMono%5Bwght%5D.ttf" -o fonts/GeistMono.ttf
+          curl -sSfL "$base/anton/Anton-Regular.ttf" -o fonts/Anton.ttf
+          mkdir -p profile
           python scripts/banner.py
+          python scripts/off_the_clock.py
           rm -rf fonts
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add banner.svg
-          git commit -m "chore: build banner" || exit 0
+          git add banner.svg profile/off-the-clock.svg
+          git commit -m "chore: build banner and off-the-clock board" || exit 0
           git push
 
   contrib-3d:
