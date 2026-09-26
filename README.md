@@ -57,9 +57,6 @@ I design and build websites for small businesses that don’t look like they cam
 | **Running** | Local LLMs on an RTX 3060 box, Hermes agents, the homelab |
 | **Listening** | *White Pony* on repeat |
 
-<!-- NOW PLAYING — turn on once you have a Last.fm account scrobbling Apple Music/Spotify:
-<p><a href="https://www.last.fm/user/YOUR_LASTFM_USER"><img src="https://lastfm-recently-played.vercel.app/api?user=YOUR_LASTFM_USER&count=3&width=420" alt="Recently played"></a></p>
--->
 
 <br>
 
@@ -126,32 +123,71 @@ I build terminal-first tooling for authorized assessments and lab work — NIL i
 
 #### `08` &nbsp; Contact card
 
-| | |
-|:--|:--|
-| **Email** | [hello@dasdev.net](mailto:hello@dasdev.net) |
-| **Portfolio** | [dasdev.net](https://dasdev.net) |
-| **Tap card** | [p.dasdev.net/pro](https://p.dasdev.net/pro/) |
-| **Save contact** | [Download vCard](https://p.dasdev.net/das-pro.vcf) |
-| **QR / NFC** | [p.dasdev.net/tags](https://p.dasdev.net/tags/) |
-
-New site, redesign, landing page, online store, or something odd — write to **[hello@dasdev.net](mailto:hello@dasdev.net)**.
+<table>
+  <tr>
+    <td valign="top">
+      <br>
+      <b>This is my tap card.</b> The same card lives on an NFC keychain and a QR code — tap it on a phone and it lands in your contacts in one go.
+      <br><br>
+      <a href="https://p.dasdev.net/das-pro.vcf"><img src="https://img.shields.io/badge/Save%20contact-.vcf-c4552f?style=for-the-badge&labelColor=141311" alt="Save contact"></a>
+      <br>
+      <a href="mailto:hello@dasdev.net"><img src="https://img.shields.io/badge/Email-hello@dasdev.net-c4552f?style=for-the-badge&labelColor=141311" alt="Email hello@dasdev.net"></a>
+      <br>
+      <a href="https://dasdev.net"><img src="https://img.shields.io/badge/Portfolio-dasdev.net-c4552f?style=for-the-badge&labelColor=141311" alt="Portfolio dasdev.net"></a>
+      <br>
+      <a href="https://p.dasdev.net/pro/"><img src="https://img.shields.io/badge/Open%20the%20card-p.dasdev.net-c4552f?style=for-the-badge&labelColor=141311" alt="Open the tap card"></a>
+      <br>
+      <a href="https://p.dasdev.net/tags/"><img src="https://img.shields.io/badge/QR%20%2F%20NFC-tags-544f46?style=for-the-badge&labelColor=141311" alt="QR and NFC tags"></a>
+      <br><br>
+      <sub>New site, redesign, landing page, online store, or something odd — I reply within a day, Eastern Time.</sub>
+    </td>
+  </tr>
+</table>
 
 <br>
 
 <details>
-<summary><b>Off the clock</b> &nbsp;<sub>the casual card, folded</sub></summary>
+<summary><b>Off the clock</b> &nbsp;<sub>the casual card, unfolded on click</sub></summary>
 
 <br>
 
-Florida humidity on the windows, analog cameras in a drawer, old web in the bookmarks. A room with the lights down and a flyer on the wall. The loud version lives at **[p.dasdev.net](https://p.dasdev.net/)**.
+<table>
+  <tr>
+    <td valign="top">
+      <br>
+      Florida humidity on the windows, analog cameras in a drawer, old web in the bookmarks. A room with the lights down and a flyer on the wall.
+      <br><br>
+      The loud version of this page lives at <a href="https://p.dasdev.net/"><b>p.dasdev.net</b></a> — Top 8, guestbook, the record crate and a photo roll.
+    </td>
+  </tr>
+</table>
 
-| | |
-|:--|:--|
-| **Music** | Deftones · Nirvana · Have a Nice Life · Slowdive · Type O Negative · shoegaze · late-night drives |
-| **Making** | Websites that feel inhabited, and the machines that keep them up |
-| **Analog** | 35mm film · disposables · cassettes · CRTs · flyers on telephone poles |
-| **Watching** | Donnie Darko · Serial Experiments Lain · Adult Swim bumpers |
-| **Playing** | Minecraft · modded servers · co-op anything · old handhelds |
+<p align="center">
+  <img src="./profile/off-the-clock.svg" alt="Off the clock — Music: Deftones, Nirvana, Have a Nice Life, Slowdive, Type O Negative, Radiohead, shoegaze. Making: SvelteKit, WebGL shaders, NIL, RouteSim, homelab. Analog: 35mm film, cassettes, CRTs. Watching: Donnie Darko, Serial Experiments Lain. Playing: Minecraft, modded servers." width="100%">
+</p>
+
+##### On the aux &nbsp;·&nbsp; <i>Gig Flyer Vol. 2</i>
+
+| # | Track | Artist | |
+|--:|:--|:--|:--|
+| `01` | Change (In the House of Flies) | Deftones | [▶︎ listen](https://music.apple.com/us/album/change-in-the-house-of-flies/1537631309?i=1537631475&uo=4) |
+| `02` | Heart-Shaped Box | Nirvana | [▶︎ listen](https://music.apple.com/us/album/heart-shaped-box/1440858699?i=1440859107&uo=4) |
+| `03` | Be Quiet and Drive (Far Away) | Deftones | [▶︎ listen](https://music.apple.com/us/album/be-quiet-and-drive-far-away/1099843198?i=1099843334&uo=4) |
+| `04` | Bullet with Butterfly Wings | The Smashing Pumpkins | [▶︎ listen](https://music.apple.com/us/album/bullet-with-butterfly-wings/1455510683?i=1455510876&uo=4) |
+| `05` | Karma Police | Radiohead | [▶︎ listen](https://music.apple.com/us/album/karma-police/1097861387?i=1097861836&uo=4) |
+| `06` | Today | The Smashing Pumpkins | [▶︎ listen](https://music.apple.com/us/album/today/721207206?i=721207666&uo=4) |
+| `07` | Harness Your Hopes (B-side) | Pavement | [▶︎ listen](https://music.apple.com/us/album/harness-your-hopes-b-side/1589160766?i=1589161038&uo=4) |
+| `08` | Serve the Servants | Nirvana | [▶︎ listen](https://music.apple.com/us/album/serve-the-servants/1440858699?i=1440858845&uo=4) |
+| `09` | Lake of Fire (Live Acoustic) | Nirvana | [▶︎ listen](https://music.apple.com/us/album/lake-of-fire-live-acoustic/1440892370?i=1440893065&uo=4) |
+| `10` | Jigsaw Falling Into Place | Radiohead | [▶︎ listen](https://music.apple.com/us/album/jigsaw-falling-into-place/1109714933?i=1109715469&uo=4) |
+| `11` | Say It Ain't So | Weezer | [▶︎ listen](https://music.apple.com/us/album/say-it-aint-so/1440869641?i=1440870181&uo=4) |
+| `12` | Beverly Hills | Weezer | [▶︎ listen](https://music.apple.com/us/album/beverly-hills/1440865423?i=1440865427&uo=4) |
+| `13` | Mind Eraser, No Chaser | Them Crooked Vultures | [▶︎ listen](https://music.apple.com/us/album/mind-eraser-no-chaser/1237748988?i=1237748994&uo=4) |
+| `14` | Knife Prty | Deftones | [▶︎ listen](https://music.apple.com/us/album/knife-prty/1099848709?i=1099848807&uo=4) |
+
+<!-- NOW PLAYING — turn on once you have a Last.fm account scrobbling Apple Music/Spotify:
+<p><a href="https://www.last.fm/user/YOUR_LASTFM_USER"><img src="https://lastfm-recently-played.vercel.app/api?user=YOUR_LASTFM_USER&count=3&width=420" alt="Recently played"></a></p>
+-->
 
 </details>
 
