@@ -1,0 +1,97 @@
+name: Profile refresh
+
+# Rebuilds the dynamic parts of the profile README once a day
+# (07:17 ET) and whenever you run it by hand from the Actions tab.
+on:
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/profile.yml", "profile-3d-contrib/settings.json", "scripts/banner.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  banner:
+    name: Banner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build banner.svg
+        run: |
+          pip install -q pillow numpy fonttools
+          mkdir -p fonts
+          base=https://raw.githubusercontent.com/google/fonts/main/ofl
+          curl -sSfL "$base/instrumentserif/InstrumentSerif-Regular.ttf" -o fonts/InstrumentSerif-Regular.ttf
+          curl -sSfL "$base/geist/Geist%5Bwght%5D.ttf" -o fonts/Geist.ttf
+          curl -sSfL "$base/geistmono/GeistMono%5Bwght%5D.ttf" -o fonts/GeistMono.ttf
+          python scripts/banner.py
+          rm -rf fonts
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add banner.svg
+          git commit -m "chore: build banner" || exit 0
+          git push
+
+  contrib-3d:
+    name: 3D contribution calendar + radar + languages
+    needs: banner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: profile-3d-contrib/settings.json
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          git commit -m "chore: refresh 3D contributions" || exit 0
+          git pull --rebase
+          git push
+
+  activity:
+    name: Recent activity feed
+    needs: contrib-3d
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "chore: refresh recent activity"
+          MAX_LINES: 6
+
+  snake:
+    name: Contribution snake
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#a84321&color_dots=#d4ccba,#dfae94,#c8784f,#a84321,#5e230e
+            dist/snake-dark.svg?color_snake=#d9663c&color_dots=#262420,#5e230e,#8a3519,#c4552f,#f0926a
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
