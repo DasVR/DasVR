@@ -4,7 +4,8 @@
   Dynamic parts:
     - profile-3d-contrib/*  and the activity list  → .github/workflows/profile.yml (daily)
     - snake-*.svg on the `output` branch             → same workflow
-    - stats / streak / graph / typing / views        → public image services, live on every load
+    - profile/*.svg (stats, languages, pins)         → same workflow
+    - streak / typing / views                        → public image services, live on every load
 -->
 
 <p align="center">
@@ -45,6 +46,11 @@ I design and build websites for small businesses that don’t look like they cam
 | **Hermes** | Self-hosted agent framework — model routing, memory, plugins, Discord front end. | AI | `◐ Building` |
 | **RouteSim** | Routing and traffic simulation. Part game, part excuse to write pathfinding. | Side project | `◐ Building` |
 | **Homelab** | Self-hosted services, backups, and a Minecraft box that stays up through Florida storms. | Infra | `○ Running` |
+
+<p>
+  <a href="https://github.com/DasVR/NIL"><img width="49%" src="./profile/pin-nil.svg" alt="NIL"></a>
+  <a href="https://github.com/DasVR/spacehey-personal"><img width="49%" src="./profile/pin-card.svg" alt="p.dasdev.net tap card"></a>
+</p>
 
 <br>
 
@@ -99,16 +105,12 @@ I build terminal-first tooling for authorized assessments and lab work — NIL i
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=DasVR&show_icons=true&include_all_commits=true&count_private=true&rank_icon=percentile&bg_color=e2dbcc&title_color=a84321&text_color=26241f&icon_color=a84321&border_color=cfc6b3&border_radius=16" alt="GitHub stats">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DasVR&layout=compact&langs_count=8&hide=html,css&bg_color=e2dbcc&title_color=a84321&text_color=26241f&border_color=cfc6b3&border_radius=16" alt="Top languages">
+  <img height="170" src="./profile/stats.svg" alt="GitHub stats">
+  <img height="170" src="./profile/top-langs.svg" alt="Top languages">
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=DasVR&background=E2DBCC&border=CFC6B3&stroke=CFC6B3&ring=A84321&fire=A84321&currStreakNum=141311&sideNums=141311&currStreakLabel=A84321&sideLabels=544F46&dates=8A8274&border_radius=16&date_format=M%20j%5B%2C%20Y%5D" alt="Contribution streak" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DasVR&bg_color=e2dbcc&color=544f46&title_color=a84321&line=a84321&point=141311&area=true&area_color=a84321&hide_border=true&radius=16&custom_title=Contributions%20%C2%B7%20last%2031%20days" alt="Contribution activity graph" width="100%">
 </p>
 
 <p align="center">
