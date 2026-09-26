@@ -4,7 +4,6 @@
   Dynamic parts:
     - profile-3d-contrib/*  and the activity list  → .github/workflows/profile.yml (daily)
     - snake-*.svg on the `output` branch             → same workflow
-    - profile/*.svg (stats, languages, pins)         → same workflow
     - streak / typing / views                        → public image services, live on every load
 -->
 
@@ -46,11 +45,6 @@ I design and build websites for small businesses that don’t look like they cam
 | **Hermes** | Self-hosted agent framework — model routing, memory, plugins, Discord front end. | AI | `◐ Building` |
 | **RouteSim** | Routing and traffic simulation. Part game, part excuse to write pathfinding. | Side project | `◐ Building` |
 | **Homelab** | Self-hosted services, backups, and a Minecraft box that stays up through Florida storms. | Infra | `○ Running` |
-
-<p>
-  <a href="https://github.com/DasVR/NIL"><img width="49%" src="./profile/pin-nil.svg" alt="NIL"></a>
-  <a href="https://github.com/DasVR/spacehey-personal"><img width="49%" src="./profile/pin-card.svg" alt="p.dasdev.net tap card"></a>
-</p>
 
 <br>
 
@@ -102,11 +96,6 @@ I build terminal-first tooling for authorized assessments and lab work — NIL i
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-dasdev-dark.svg">
     <img src="./profile-3d-contrib/profile-dasdev.svg" alt="3D contribution calendar with commit, PR, issue and review radar" width="100%">
   </picture>
-</p>
-
-<p align="center">
-  <img height="170" src="./profile/stats.svg" alt="GitHub stats">
-  <img height="170" src="./profile/top-langs.svg" alt="Top languages">
 </p>
 
 <p align="center">
