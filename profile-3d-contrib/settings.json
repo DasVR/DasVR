@@ -1,0 +1,24 @@
+[
+  {
+    "type": "normal",
+    "fileName": "profile-dasdev.svg",
+    "backgroundColor": "#e2dbcc",
+    "foregroundColor": "#141311",
+    "strongColor": "#a84321",
+    "weakColor": "#8a8274",
+    "radarColor": "#a84321",
+    "growingAnimation": true,
+    "contribColors": ["#d4ccba", "#dfae94", "#c8784f", "#a84321", "#5e230e"]
+  },
+  {
+    "type": "normal",
+    "fileName": "profile-dasdev-dark.svg",
+    "backgroundColor": "#141311",
+    "foregroundColor": "#ece7dd",
+    "strongColor": "#d9663c",
+    "weakColor": "#6b665c",
+    "radarColor": "#d9663c",
+    "growingAnimation": true,
+    "contribColors": ["#262420", "#5e230e", "#8a3519", "#c4552f", "#f0926a"]
+  }
+]
