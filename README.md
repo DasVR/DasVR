@@ -111,12 +111,12 @@ I build terminal-first tooling for authorized assessments and lab work — NIL i
 #### `07` &nbsp; Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#28](https://github.com/DasVR/dasdevbot/pull/28) in [DasVR/dasdevbot](https://github.com/DasVR/dasdevbot)
-2. 🎉 Merged PR [#23](https://github.com/DasVR/dasdevbot/pull/23) in [DasVR/dasdevbot](https://github.com/DasVR/dasdevbot)
-3. 🗣 Commented on [#31](https://github.com/DasVR/dasdevbot/issues/31#issuecomment-5933110867) in [DasVR/dasdevbot](https://github.com/DasVR/dasdevbot)
-4. 🗣 Commented on [#31](https://github.com/DasVR/dasdevbot/issues/31#issuecomment-5923725420) in [DasVR/dasdevbot](https://github.com/DasVR/dasdevbot)
-5. 🎉 Merged PR [#32](https://github.com/DasVR/dasdevbot/pull/32) in [DasVR/dasdevbot](https://github.com/DasVR/dasdevbot)
-6. 💪 Opened PR [#32](https://github.com/DasVR/dasdevbot/pull/32) in [DasVR/dasdevbot](https://github.com/DasVR/dasdevbot)
+1. 💪 Opened PR [#17](https://github.com/DasVR/midnight-muse/pull/17) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
+2. 🎉 Merged PR [#16](https://github.com/DasVR/midnight-muse/pull/16) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
+3. 💪 Opened PR [#16](https://github.com/DasVR/midnight-muse/pull/16) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
+4. 🎉 Merged PR [#15](https://github.com/DasVR/midnight-muse/pull/15) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
+5. 💪 Opened PR [#15](https://github.com/DasVR/midnight-muse/pull/15) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
+6. 🎉 Merged PR [#14](https://github.com/DasVR/midnight-muse/pull/14) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
 <!--END_SECTION:activity-->
 
 <br>
