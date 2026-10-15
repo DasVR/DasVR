@@ -111,12 +111,12 @@ I build terminal-first tooling for authorized assessments and lab work — NIL i
 #### `07` &nbsp; Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#128](https://github.com/DasVR/smart-display/pull/128) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
-2. 💪 Opened PR [#128](https://github.com/DasVR/smart-display/pull/128) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
-3. 🎉 Merged PR [#41](https://github.com/DasVR/midnight-muse/pull/41) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
-4. 💪 Opened PR [#43](https://github.com/DasVR/midnight-muse/pull/43) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
-5. 🎉 Merged PR [#42](https://github.com/DasVR/midnight-muse/pull/42) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
-6. 💪 Opened PR [#42](https://github.com/DasVR/midnight-muse/pull/42) in [DasVR/midnight-muse](https://github.com/DasVR/midnight-muse)
+1. 💪 Opened PR [#132](https://github.com/DasVR/smart-display/pull/132) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
+2. 🎉 Merged PR [#131](https://github.com/DasVR/smart-display/pull/131) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
+3. 💪 Opened PR [#131](https://github.com/DasVR/smart-display/pull/131) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
+4. 🎉 Merged PR [#130](https://github.com/DasVR/smart-display/pull/130) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
+5. 💪 Opened PR [#130](https://github.com/DasVR/smart-display/pull/130) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
+6. 🎉 Merged PR [#129](https://github.com/DasVR/smart-display/pull/129) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
 <!--END_SECTION:activity-->
 
 <br>
