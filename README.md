@@ -111,12 +111,12 @@ I build terminal-first tooling for authorized assessments and lab work — NIL i
 #### `07` &nbsp; Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#153](https://github.com/DasVR/smart-display/pull/153) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
-2. 💪 Opened PR [#153](https://github.com/DasVR/smart-display/pull/153) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
-3. 🎉 Merged PR [#152](https://github.com/DasVR/smart-display/pull/152) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
-4. 💪 Opened PR [#152](https://github.com/DasVR/smart-display/pull/152) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
-5. 🎉 Merged PR [#151](https://github.com/DasVR/smart-display/pull/151) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
-6. 💪 Opened PR [#151](https://github.com/DasVR/smart-display/pull/151) in [DasVR/smart-display](https://github.com/DasVR/smart-display)
+1. 🎉 Merged PR [#6](https://github.com/DasVR/nightshift/pull/6) in [DasVR/nightshift](https://github.com/DasVR/nightshift)
+2. 💪 Opened PR [#6](https://github.com/DasVR/nightshift/pull/6) in [DasVR/nightshift](https://github.com/DasVR/nightshift)
+3. 🎉 Merged PR [#5](https://github.com/DasVR/nightshift/pull/5) in [DasVR/nightshift](https://github.com/DasVR/nightshift)
+4. 💪 Opened PR [#5](https://github.com/DasVR/nightshift/pull/5) in [DasVR/nightshift](https://github.com/DasVR/nightshift)
+5. ❌ Closed PR [#4](https://github.com/DasVR/nightshift/pull/4) in [DasVR/nightshift](https://github.com/DasVR/nightshift)
+6. ❌ Closed PR [#3](https://github.com/DasVR/nightshift/pull/3) in [DasVR/nightshift](https://github.com/DasVR/nightshift)
 <!--END_SECTION:activity-->
 
 <br>
